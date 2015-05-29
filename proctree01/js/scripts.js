@@ -20,8 +20,8 @@ function drawLine(x,y,x1,y1,depth){
 
 function drawTree(x,y,angle,depth){
 	
-	var x1 = x + Math.cos(angle*deg_to_rad)*  depth * (Math.random()*20)/(depth+3 )  ;
-	var y1 = y + Math.sin(angle*deg_to_rad)*  depth * (Math.random()*20)/(depth+3)  ;
+	var x1 = x + Math.cos(angle*deg_to_rad)*  (depth + Math.random()*5)  ;
+	var y1 = y + Math.sin(angle*deg_to_rad)*  (depth + Math.random()*5) ;
 	
 	if(depth != 0 && counter != 1500){
 		drawLine(x,y,x1,y1,depth);
