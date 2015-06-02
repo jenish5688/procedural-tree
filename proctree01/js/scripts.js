@@ -42,7 +42,7 @@ function drawTree(x,y,angle,depth){
 	
 }
 
-drawTree(800,1200,-90,80);
+drawTree(800,1200,-90,30);
 //drawLine(200,300,50,60);
 
 document.write(counter);
