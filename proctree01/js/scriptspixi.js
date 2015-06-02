@@ -16,7 +16,7 @@ function drawLine(x,y,x1,y1,depth){
 	
 	
 	//	ctx.lineWidth = (depth+2)/3;
-	graphics.beginFill( 0xffffff)
+	graphics.lineStyle((depth+2)/3, 0xffffff,1);
 		graphics.moveTo(x,y);
 		graphics.lineTo(x1,y1);
 	//	ctx.stroke();
