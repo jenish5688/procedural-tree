@@ -53,8 +53,8 @@ function drawTree(x,y,angle,depth){
 drawTree(800,1200,-90,40);
 
 function animate(){
-	renderer.render();
-	requestAnimationFrame(stage);
+	renderer.render(stage);
+	requestAnimationFrame(animate);
 	
 	
 }
